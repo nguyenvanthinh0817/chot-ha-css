@@ -1,4 +1,4 @@
-/*header component*/
+header component*/
 .navbar{
 	background-color: rgba(82, 64,120,0.9) !important;
 }
@@ -12,3 +12,90 @@
 }
 
 /*end header component*/
+
+
+/**/
+
+.carousel-inner img{
+	width: 100%;
+}
+
+.carousel-caption{
+	position: absolute;
+	top:50%;
+}
+
+.carousel-caption h1{
+	font-size: 400%;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 15px #000;
+}
+.carousel-caption h3{
+	text-shadow: 5px 5px 15px #000;
+}
+
+.btn-primary{
+	background-color: rgb(82, 64, 120);
+	border:1px solid white;
+}
+
+.btn-primary:hover{
+	background-color: rgb(62, 44, 120);
+	border:1px solid white;
+}
+
+
+/*Media Query*/
+
+@media (max-width: 992px) {
+	.carousel-caption{
+	
+		top:20%;
+	}
+	.carousel-caption h1{
+		font-size: 250%;
+		
+	}
+	.carousel-caption h3{
+		font-size: 160%;
+	}
+	.carousel-caption .btn{
+		font-size: 120%;
+	}
+		
+}
+
+@media (max-width: 768px) {
+	.carousel-caption{
+	
+		top:20%;
+	}
+	.carousel-caption h1{
+		font-size: 220%;
+		
+	}
+	.carousel-caption h3{
+		font-size: 140%;
+	}
+	.carousel-caption .btn{
+		font-size: 100%;
+	}	
+}
+
+@media (max-width: 576px) {
+	.carousel-caption{
+	
+		top:20%;
+	}
+	.carousel-caption h1{
+		font-size: 180%;
+		
+	}
+	.carousel-caption h3{
+		font-size: 100%;
+	}
+	.carousel-caption .btn{
+		font-size: 70%;
+	}	
+}
+/*
