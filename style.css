@@ -178,4 +178,10 @@ hr.light{
 	border-top:1px solid #d5d5d5;
 	width: 75%;
 }
+
+.light-100{
+	border-top:1px solid #d5d5d5;
+	width: 100%;
+	color: #d5d5d5;
+}
 /**/
