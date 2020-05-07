@@ -114,3 +114,23 @@ html, body{
 	font-size: 1em;
 }
 /* end jumbotron*/
+
+
+/**/
+.fa-react{
+	color: #81D8F7;
+}
+
+.fa-angular{
+	color:rgb(177, 43, 55);
+}
+
+.fa-css3{
+	color: #D76537;
+}
+
+.fa-react, .fa-angular, .fa-css3{
+	font-size: 4em;
+	margin:1rem;
+}
+/**/
