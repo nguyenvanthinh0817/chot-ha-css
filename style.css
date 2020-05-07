@@ -1,0 +1,14 @@
+/*header component*/
+.navbar{
+	background-color: rgba(82, 64,120,0.9) !important;
+}
+
+.navbar li a{
+	color:white !important;
+}
+
+.navbar li a:hover{
+	color: black !important;
+}
+
+/*end header component*/
